@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package personalexpensetracker;
+package hospitalappointmentsystem;
 
 /**
  *
@@ -16,7 +16,7 @@ import java.sql.SQLException;
 public class DBConnection {
 
     public static Connection getConnection() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/personal_expense_db";
+        String url = "jdbc:mysql://localhost:3306/hospital_appointment_db";
         String user = "root";
         String password = "spoorthi@123";
 
